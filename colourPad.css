@@ -1,0 +1,39 @@
+/* https://css-tricks.com/css-animation-tricks/ */
+
+body { 
+ /* background: rgb(20, 20, 20); */
+  overflow: hidden;
+}
+
+span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  overflow: hidden;
+}
+
+.colourPad {
+  margin-top: -17%;
+  height: 34%; 
+  width: 2%;
+  top: 30%;
+  border-radius: 20px;
+  position: absolute;
+  float: left;
+}
+
+.colourPad:nth-of-type(1) { left: 4%; background: #3B44D1; }
+.colourPad:nth-of-type(2) { left: 8%; background: #9337FE; }
+.colourPad:nth-of-type(3) { left: 12%; background: #C532FC; }
+.colourPad:nth-of-type(4) { left: 16%; background: #F639F8; }
+.colourPad:nth-of-type(5) { left: 20%; background: #F236C8; }
+.colourPad:nth-of-type(6) { left: 24%; background: #FF2F8D; }
+.colourPad:nth-of-type(7) { left: 28%; background: #EE3860; }
+.colourPad:nth-of-type(8) { left: 32%; background: #DC5245; }
+.colourPad:nth-of-type(9) { left: 36%; background: #F38643; }
+.colourPad:nth-of-type(10) { left: 40%; background: #F8B435; }
+.colourPad:nth-of-type(11) { left: 44%; background: #FAF444; }
+.colourPad:nth-of-type(13) { left: 48%; background: #E0FF3B; }
+.colourPad:nth-of-type(14) { left: 52%; background: #E1FF3C; }
